@@ -198,19 +198,17 @@ header h1 {
   /* pulse effect no more active on visited elements */
   display: none;
 }
-@media only screen and (min-width: 600px) {
-  .cd-single-point.is-open .cd-more-info.cd-left {
-    right: 140%;
-  }
-  .cd-single-point.is-open .cd-more-info.cd-right {
-    left: 140%;
-  }
-  .cd-single-point.is-open .cd-more-info.cd-top {
-    bottom: 140%;
-  }
-  .cd-single-point.is-open .cd-more-info.cd-bottom {
-    top: 140%;
-  }
+.cd-single-point.is-open .cd-more-info.cd-left {
+  right: 140%;
+}
+.cd-single-point.is-open .cd-more-info.cd-right {
+  left: 140%;
+}
+.cd-single-point.is-open .cd-more-info.cd-top {
+  bottom: 140%;
+}
+.cd-single-point.is-open .cd-more-info.cd-bottom {
+  top: 140%;
 }
 
 @-webkit-keyframes cd-pulse {
@@ -301,95 +299,93 @@ header h1 {
 .cd-single-point .cd-more-info p {
   color: #758eb1;
 }
-@media only screen and (min-width: 600px) {
-  .cd-single-point .cd-more-info {
-    position: absolute;
-    width: 220px;
-    height: 240px;
-    padding: 1em;
-    overflow-y: visible;
-    line-height: 1.4;
-    border-radius: 0.25em;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  }
-  .cd-single-point .cd-more-info::before {
-    display: block;
-  }
-  .cd-single-point .cd-more-info.cd-left, .cd-single-point .cd-more-info.cd-right {
-    top: 50%;
-    bottom: auto;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  .cd-single-point .cd-more-info.cd-left::before, .cd-single-point .cd-more-info.cd-right::before {
-    top: 50%;
-    bottom: auto;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  .cd-single-point .cd-more-info.cd-left {
-    right: 160%;
-    left: auto;
-  }
-  .cd-single-point .cd-more-info.cd-left::before {
-    border-left-color: rgba(255, 255, 255, 0.95);
-    left: 100%;
-  }
-  .cd-single-point .cd-more-info.cd-right {
-    left: 160%;
-  }
-  .cd-single-point .cd-more-info.cd-right::before {
-    border-right-color: rgba(255, 255, 255, 0.95);
-    right: 100%;
-  }
-  .cd-single-point .cd-more-info.cd-top, .cd-single-point .cd-more-info.cd-bottom {
-    left: 50%;
-    right: auto;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  .cd-single-point .cd-more-info.cd-top::before, .cd-single-point .cd-more-info.cd-bottom::before {
-    left: 50%;
-    right: auto;
-    -webkit-transform: translateX(-50%);
-    -moz-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  .cd-single-point .cd-more-info.cd-top {
-    bottom: 160%;
-    top: auto;
-  }
-  .cd-single-point .cd-more-info.cd-top::before {
-    border-top-color: rgba(255, 255, 255, 0.95);
-    top: 100%;
-  }
-  .cd-single-point .cd-more-info.cd-bottom {
-    top: 160%;
-  }
-  .cd-single-point .cd-more-info.cd-bottom::before {
-    border-bottom-color: rgba(255, 255, 255, 0.95);
-    bottom: 100%;
-  }
-  .cd-single-point .cd-more-info h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
-    margin-bottom: 0;
-  }
-  .cd-single-point .cd-more-info p {
-    font-size: 14px;
-    font-size: 0.875rem;
-  }
+.cd-single-point .cd-more-info {
+  position: absolute;
+  width: 220px;
+  height: 240px;
+  padding: 1em;
+  overflow-y: visible;
+  line-height: 1.4;
+  border-radius: 0.25em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.cd-single-point .cd-more-info::before {
+  display: block;
+}
+.cd-single-point .cd-more-info.cd-left, .cd-single-point .cd-more-info.cd-right {
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cd-single-point .cd-more-info.cd-left::before, .cd-single-point .cd-more-info.cd-right::before {
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.cd-single-point .cd-more-info.cd-left {
+  right: 160%;
+  left: auto;
+}
+.cd-single-point .cd-more-info.cd-left::before {
+  border-left-color: rgba(255, 255, 255, 0.95);
+  left: 100%;
+}
+.cd-single-point .cd-more-info.cd-right {
+  left: 160%;
+}
+.cd-single-point .cd-more-info.cd-right::before {
+  border-right-color: rgba(255, 255, 255, 0.95);
+  right: 100%;
+}
+.cd-single-point .cd-more-info.cd-top, .cd-single-point .cd-more-info.cd-bottom {
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.cd-single-point .cd-more-info.cd-top::before, .cd-single-point .cd-more-info.cd-bottom::before {
+  left: 50%;
+  right: auto;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.cd-single-point .cd-more-info.cd-top {
+  bottom: 160%;
+  top: auto;
+}
+.cd-single-point .cd-more-info.cd-top::before {
+  border-top-color: rgba(255, 255, 255, 0.95);
+  top: 100%;
+}
+.cd-single-point .cd-more-info.cd-bottom {
+  top: 160%;
+}
+.cd-single-point .cd-more-info.cd-bottom::before {
+  border-bottom-color: rgba(255, 255, 255, 0.95);
+  bottom: 100%;
+}
+.cd-single-point .cd-more-info h2 {
+  font-size: 20px;
+  font-size: 1.25rem;
+  margin-bottom: 0;
+}
+.cd-single-point .cd-more-info p {
+  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /* close the interest point description - only on mobile */
@@ -428,8 +424,6 @@ header h1 {
   height: 16px;
   width: 2px;
 }
-@media only screen and (min-width: 600px) {
-  .cd-close-info {
-    display: none;
-  }
+.cd-close-info {
+  display: none;
 }
