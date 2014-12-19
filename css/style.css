@@ -292,6 +292,7 @@ header h1 {
   border: 8px solid transparent;
 }
 .cd-single-point .cd-more-info h2 {
+  margin-top: 0;
   font-size: 22px;
   font-size: 1.375rem;
   margin-bottom: .6em;
