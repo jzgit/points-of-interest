@@ -92,7 +92,7 @@ header h1 {
   position: absolute;
   border-radius: 50%;
 }
-.cd-single-point > a {
+.cd-single-point a {
   position: relative;
   z-index: 2;
   display: block;
@@ -105,7 +105,7 @@ header h1 {
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
-.cd-single-point > a::after, .cd-single-point > a:before {
+.cd-single-point  a::after, .cd-single-point  a:before {
   /* rotating plus icon */
   content: '';
   position: absolute;
@@ -126,11 +126,11 @@ header h1 {
   -moz-transition-duration: 0.2s;
   transition-duration: 0.2s;
 }
-.cd-single-point > a::after {
+.cd-single-point  a::after {
   height: 2px;
   width: 12px;
 }
-.cd-single-point > a::before {
+.cd-single-point  a::before {
   height: 12px;
   width: 2px;
 }
@@ -165,10 +165,10 @@ header h1 {
   top: 20%;
   right: 22%;
 }
-.cd-single-point.is-open > a {
+.cd-single-point.is-open  a {
   background-color: #475f74;
 }
-.cd-single-point.is-open > a::after, .cd-single-point.is-open > a::before {
+.cd-single-point.is-open  a::after, .cd-single-point.is-open  a::before {
   -webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg);
   -moz-transform: translateX(-50%) translateY(-50%) rotate(135deg);
   -ms-transform: translateX(-50%) translateY(-50%) rotate(135deg);
@@ -191,7 +191,7 @@ header h1 {
   -moz-transition: opacity 0.3s 0s, visibility 0s 0s, -moz-transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
   transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
 }
-.cd-single-point.visited > a {
+.cd-single-point.visited  a {
   background-color: #475f74;
 }
 .cd-single-point.visited::after {
